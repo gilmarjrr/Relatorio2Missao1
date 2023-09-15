@@ -17,7 +17,7 @@ public class PessoaFisica extends Pessoa implements Serializable {
         this.idade = 0;
     }
     public PessoaFisica(int id, String nome, String cpf, int idade) {
-        super(id, nome); // 
+        super(id, nome);  
         this.cpf = cpf;
         this.idade = idade;
     }

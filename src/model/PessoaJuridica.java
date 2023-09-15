@@ -30,4 +30,8 @@ public class PessoaJuridica extends Pessoa implements Serializable {
         System.out.println("CNPJ: " + cnpj);
     }
 
+    public void setRazaoSocial(String novaRazaoSocial) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
 }
